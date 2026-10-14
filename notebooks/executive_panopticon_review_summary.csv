@@ -1,0 +1,9 @@
+Metric,Value
+Total flagged episodes,13.0
+Low severity,5.0
+Moderate severity,4.0
+High severity,4.0
+Critical severity,0.0
+Longest episode (seconds),300.0
+Mean episode risk,0.8372
+Episodes requiring human review,13.0

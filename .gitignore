@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+shap_env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.vscode/
+
+# Logs
+*.log
+
+# Data-folder notebook checkpoints
+data/.ipynb_checkpoints/
+
+# Input datasets — keep local until sharing rights are confirmed
+data/*.csv
+data/.ipynb_checkpoints/

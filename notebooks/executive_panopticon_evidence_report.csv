@@ -1,0 +1,2 @@
+episode_start,episode_end,duration_seconds,observations,mean_risk_score,max_risk_score,median_tab_switches,median_gaze_angle,median_audio_db,top_model_contributors,review_recommendation
+2023-12-01 10:40:40,2023-12-01 10:45:39,300,300,0.9962,1.0,3.0,5.415,35.402,"['tab_switches', 'tab_switch_rate_10s', 'eye_gaze_angle', 'event_time_difference', 'audio_db']",Human review recommended; model output is not proof of misconduct.

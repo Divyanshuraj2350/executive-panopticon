@@ -1,9 +1,11 @@
-Metric,Value
-Total flagged episodes,13.0
-Low severity,5.0
-Moderate severity,4.0
-High severity,4.0
-Critical severity,0.0
-Longest episode (seconds),300.0
-Mean episode risk,0.8372
-Episodes requiring human review,13.0
+metric,value
+test_rows,1994.0
+decision_threshold,0.65
+high_risk_episodes,14.0
+longest_episode_seconds,300.0
+accuracy,0.8149448345035105
+precision,0.9744597249508841
+recall,0.5821596244131455
+f1_score,0.7288758265980897
+roc_auc,0.8422533155735346
+average_precision,0.8614927559631341

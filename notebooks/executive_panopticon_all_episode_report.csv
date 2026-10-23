@@ -1,14 +1,15 @@
-Episode,Start,End,Duration_Seconds,Observations,Mean_Risk,Max_Risk,Severity_Level,Top_5_SHAP_Features,Top_5_Mean_SHAP,Review_Recommendation
-1,2023-12-01 10:13:26,2023-12-01 10:13:26,1.0,1,0.7474011348448552,0.7474011348448552,Low,"eye_gaze_angle, event_time_difference, tab_switches, tab_switch_rate_10s, audio_db","0.11858, 0.10243, -0.09096, -0.05169, 0.03963",Human review recommended; model output is not proof of misconduct.
-2,2023-12-01 10:14:48,2023-12-01 10:14:48,1.0,1,0.7146678737403777,0.7146678737403777,Low,"gaze_volatility_10s, event_time_difference, tab_switches, tab_switch_rate_10s, audio_range_10s","0.14551, 0.14478, -0.09294, -0.05185, 0.03552",Human review recommended; model output is not proof of misconduct.
-3,2023-12-01 10:21:11,2023-12-01 10:21:14,4.0,4,0.6664697796348614,0.6827594764320527,Low,"tab_switches, gaze_volatility_10s, event_time_difference, audio_range_10s, gaze_range_10s","-0.09865, 0.09516, 0.08202, 0.07629, 0.06109",Human review recommended; model output is not proof of misconduct.
-4,2023-12-01 10:23:48,2023-12-01 10:23:54,7.0,7,0.7413626525401229,0.7664469993881252,Moderate,"eye_gaze_angle, audio_db, tab_switches, tab_switch_rate_10s, gaze_range_10s","0.10582, 0.08255, -0.08115, -0.06095, 0.06079",Human review recommended; model output is not proof of misconduct.
-5,2023-12-01 10:27:20,2023-12-01 10:28:17,58.0,58,0.9892034510324269,1.0,High,"tab_switches, tab_switch_rate_10s, eye_gaze_angle, audio_db, gaze_volatility_10s","0.24117, 0.18188, 0.02689, 0.02466, 0.00814",Human review recommended; model output is not proof of misconduct.
-6,2023-12-01 10:29:33,2023-12-01 10:29:33,1.0,1,0.6696947479148474,0.6696947479148474,Low,"eye_gaze_angle, audio_db, event_time_difference, tab_switches, tab_switch_rate_10s","0.10671, 0.10528, 0.10043, -0.08833, -0.07264",Human review recommended; model output is not proof of misconduct.
-7,2023-12-01 10:29:36,2023-12-01 10:29:36,1.0,1,0.6656829504488176,0.6656829504488176,Low,"eye_gaze_angle, audio_db, tab_switches, event_time_difference, tab_switch_rate_10s","0.13922, 0.12479, -0.08773, 0.07652, -0.07384",Human review recommended; model output is not proof of misconduct.
-8,2023-12-01 10:29:38,2023-12-01 10:30:06,29.0,29,0.9628844584384934,1.0,High,"tab_switches, tab_switch_rate_10s, eye_gaze_angle, audio_db, gaze_volatility_10s","0.15854, 0.10929, 0.06620, 0.06180, 0.02777",Human review recommended; model output is not proof of misconduct.
-9,2023-12-01 10:30:46,2023-12-01 10:31:05,20.0,20,0.9593830018324558,0.9995238095238096,Moderate,"tab_switches, tab_switch_rate_10s, eye_gaze_angle, audio_db, gaze_volatility_10s","0.23798, 0.14380, 0.02089, 0.02077, 0.02053",Human review recommended; model output is not proof of misconduct.
-10,2023-12-01 10:32:27,2023-12-01 10:32:36,10.0,10,0.8674060202543273,0.9783979925303454,Moderate,"eye_gaze_angle, audio_db, tab_switches, tab_switch_rate_10s, event_time_difference","0.15659, 0.12559, -0.04087, 0.04328, 0.03772",Human review recommended; model output is not proof of misconduct.
-11,2023-12-01 10:34:18,2023-12-01 10:35:28,71.0,71,0.9916962263211725,1.0,High,"tab_switches, tab_switch_rate_10s, eye_gaze_angle, audio_db, gaze_volatility_10s","0.24274, 0.19624, 0.01941, 0.01648, 0.01429",Human review recommended; model output is not proof of misconduct.
-12,2023-12-01 10:38:51,2023-12-01 10:39:05,15.0,15,0.9115243530953572,1.0,Moderate,"tab_switches, eye_gaze_angle, audio_db, tab_switch_rate_10s, gaze_range_10s","0.03119, 0.11899, 0.10465, 0.06419, 0.03219",Human review recommended; model output is not proof of misconduct.
-13,2023-12-01 10:40:40,2023-12-01 10:45:39,300.0,300,0.9961903050875949,1.0,High,"tab_switches, tab_switch_rate_10s, eye_gaze_angle, event_time_difference, audio_db","0.27692, 0.21628, -0.00030, 0.00648, 0.00046",Human review recommended; model output is not proof of misconduct.
+start_time,end_time,duration_seconds,mean_risk,max_risk,observed_positive_labels
+2023-12-01 10:27:21,2023-12-01 10:28:17,57,0.993859649122807,1.0,57
+2023-12-01 10:29:38,2023-12-01 10:30:06,29,0.9524137931034483,1.0,29
+2023-12-01 10:30:46,2023-12-01 10:31:05,20,0.9523333333333334,1.0,18
+2023-12-01 10:34:18,2023-12-01 10:35:28,71,0.9945539906103286,1.0,71
+2023-12-01 10:38:51,2023-12-01 10:39:01,11,0.9281818181818182,1.0,11
+2023-12-01 10:40:40,2023-12-01 10:45:39,300,0.9967111111111111,1.0,300
+2023-12-01 10:32:27,2023-12-01 10:32:29,3,0.8722222222222222,0.9733333333333334,2
+2023-12-01 10:13:26,2023-12-01 10:13:26,1,0.8966666666666666,0.8966666666666666,1
+2023-12-01 10:32:32,2023-12-01 10:32:36,5,0.8193333333333334,0.8833333333333333,5
+2023-12-01 10:23:48,2023-12-01 10:23:54,7,0.7847619047619048,0.8133333333333334,0
+2023-12-01 10:21:13,2023-12-01 10:21:14,2,0.6966666666666667,0.7,0
+2023-12-01 10:39:05,2023-12-01 10:39:05,1,0.6933333333333334,0.6933333333333334,1
+2023-12-01 10:21:11,2023-12-01 10:21:11,1,0.6866666666666666,0.6866666666666666,0
+2023-12-01 10:14:48,2023-12-01 10:14:48,1,0.68,0.68,1
